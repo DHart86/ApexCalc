@@ -1,0 +1,205 @@
+* {
+  font-family: Oswald, calibri;
+  box-sizing: border-box;
+  color: white;
+}
+
+.formBody {
+  background-color: #222;
+}
+
+input, select, option {
+  padding: 9px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  width: 100%;
+  background-color: #111;
+  font-size: 18px;
+  font-family: calibri;
+}
+
+form {
+  width: 100%;
+  font-size: 20px;
+}
+
+
+
+.calcButton {
+  width: 100%;
+  height: 60px;
+  background-color: #5A8DB5;
+  color: white;
+  font-family: Oswald;
+  font-weight: 400;
+  font-size: 30px;
+  border: 1px solid #7191E3;
+  box-shadow: 1px 4px 12px 3px #111;
+  margin-top: 20px;
+}
+
+.calcButton:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  box-shadow: 0px 9px 15px -5px #5A8DB5;
+}
+
+.calcButton:active {
+  background-color: #54E355;
+}
+
+.wrap {
+  width: 50%;
+  background-color: #111;
+  border-radius: 6px;
+  padding: 10px;
+  float: left;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  background-color: #111;
+  padding: 10px;
+  margin: 0;
+  font-size: 60px;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  background-color: #111;
+  text-align: center;
+}
+
+.calorieTotal {
+  font-size: 80px;
+  text-shadow: 2px 1px 4px black;
+  line-height: 80px;
+}
+p , .calorieTotal {
+  margin: 0px;
+  text-align:center
+}
+
+.otherWrap {
+  width: 50%;
+  background-color: #333;
+  float: left;
+  }
+
+.macroTotal {
+  top: 130px;
+  padding-left: 4%;
+  font-size: 20px;
+  text-shadow: 2px 1px 4px black;
+}
+
+#withLogo {
+  background-image: url("https://dhart86.github.io/ApexTrial/images/masterlogo_compressed.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  }
+
+label {
+  color: lightgray;
+  margin-left: 10px;
+  font-size: large;
+}
+
+label:hover {
+  color: white;
+}
+
+label,
+input {
+  cursor: pointer;
+}
+
+
+/* RADIO BUTTON TIME */
+
+.radio {
+  display: none;
+}
+
+.radio {
+  -webkit-appearance: none;
+  background-color: #444;
+  border: 4px solid #e1e1e1;
+  border-radius: 15px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  box-shadow: inset -1px -2px 8px black;
+  box-shadow: inset 1px -2px 2px black;
+}
+
+li {
+  list-style:none;
+  
+}
+
+.radio:checked {
+  background: #7191E3;
+  border: 4px solid #e1e1e1;
+}
+
+.radio:hover {
+  border: 4px solid white;
+}
+
+.radio:active {
+  background: #5A8DB5;
+  }
+
+.otherWrap:hover label {
+    color: white;   
+}
+
+
+/* SELECT COLOR */
+
+select , option {
+  padding: 9px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  width: 100%;
+  background-color: #111;
+  font-size: 18px;
+  font-family: calibri;
+  color: #aaa;
+  text-transform: uppercase;
+}
+
+/* REMOVE ARROWS FROM NUMBER FIELD */
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.footer {
+  background-color: #111;
+  padding: 0px 0px 5px 5px;
+  border-radius: 0px 0px 12px 12px
+}
+
+.footnote {
+  text-align: left;
+  color: #999;
+  font-size: small
+}
+
+.wholeShabang {
+  border-radius: 25px;
+}

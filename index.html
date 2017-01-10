@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	Apex Calorie and Macronutrient Calculator
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Teko' rel='stylesheet' type='text/css'>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+<script src="app.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+<div class="container wholeShabang">
+  <div class="row header">
+    <h1>Your Target Calories</h1>
+  </div>
+  <div class="row formBody">
+    <div class="col-md-6">
+      <form>
+        <input type="number" placeholder="YOUR WEIGHT (in lbs): . . ." id="firstNumber" maxlength="3" autocomplete='off' required>
+        <br>
+        <input type="number" placeholder="ESTIMATED BODYFAT %: . . ." id="secondNumber" maxlength="2" autocomplete='off' required><br> Average Activity Level: <br>
+
+        <select name="selectLevel" id="acLev" required>
+  <option value="1.2">Not Crazy Active (Desk Job)</option>
+  <option value="1.4">Pretty Damn Active</option>
+  <option value="1.65">Super Crazy Athlete</option>
+  </select>
+
+        <br> Pick a Goal: <br>
+        <div class="otherWrap">
+          <input type="radio" class="radio" name="blkcut" value="1.12" checked id="blk" />
+          <label for="blk">Gain Muscle</label>
+        </div>
+        <div class="otherWrap">
+          <input type="radio" class="radio" name="blkcut" value=".78" id="cut" />
+          <label for="cut" />Cut Fat</label>
+        </div>
+        <br>
+
+        <input class="calcButton" type="button" onClick="calcCals()" Value="CALCULATE" />
+      </form>
+    </div>
+
+    <div class="col-md-6" id="withLogo">
+      <p><span class="calorieTotal" id="result"></span></p>
+      <p class="macroTotal"><span id="protein"></span><br>
+        <span id="fats"></span></p>
+    </div>
+  </div>
+  <div class="row footer">
+    <p class="footnote">*Based off Katch-McArdle formula, and modified slightly to account for the fact that you probably lie to yourself about your cals anyway</p>
+
+    <p class="footnote">*Be honest and choose 'Not Crazy Active' for most accurate results.</p>
+  </div>
+</div>
+
+
+</body>
+</html>
