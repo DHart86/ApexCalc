@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 
-function calcCals() {
+$(".calcButton").on("click", function() {
   weight = $("#firstNumber").val();
   bfper = $("#secondNumber").val();
 
@@ -32,6 +32,6 @@ function calcCals() {
     return (((100 - per) / 100) * weigh * 0.4);
   }
   $("#fats").text("Fat: " + Math.round(fat(weight, bfper)));
-}
+})
 
 });
