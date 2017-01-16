@@ -21,7 +21,9 @@ input, select, option {
 }
 
 #acLev {
-  color:red;
+  color:gray;
+  background-color:black;
+  border:1px solid gray;
 }
 
 select, option {
