@@ -123,7 +123,7 @@ p , .calorieTotal {
   }
 
 label {
-  /*color: lightgray;*/ color:red;
+  color: lightgray;
   margin-left: 10px;
   font-size: large;
 }
