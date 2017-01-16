@@ -29,7 +29,7 @@ select, option {
     background-color: #111;
     font-size: 18px;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
-    color: #aaa;
+    /*color: #aaa;*/ color:red;
     text-transform: uppercase;
 }
 
