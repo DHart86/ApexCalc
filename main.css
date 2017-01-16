@@ -1,5 +1,5 @@
 * {
-  font-family: Oswald, calibri;
+  font-family: Oswald, Fira Sans Extra Condensed;
   box-sizing: border-box;
   color: white;
 }
@@ -17,7 +17,7 @@ input, select, option {
   width: 100%;
   background-color: #111;
   font-size: 18px;
-  font-family: calibri;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 
@@ -28,7 +28,7 @@ select, option {
     width: 100%;
     background-color: #111;
     font-size: 18px;
-    font-family: calibri;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
     color: #aaa;
     text-transform: uppercase;
 }
@@ -40,7 +40,7 @@ form {
 
 input[type=number] {
     -moz-appearance: textfield;
-    font-family:calibri;
+     font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 
@@ -188,7 +188,7 @@ select , option {
   width: 100%;
   background-color: #111;
   font-size: 18px;
-  font-family: calibri;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
   color: #aaa;
   text-transform: uppercase;
 }
