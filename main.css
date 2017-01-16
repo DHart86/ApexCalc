@@ -27,7 +27,7 @@ input, select, option {
   padding:7px;
 }
 
-select, option {
+/*select, option {
     padding: 9px;
     border: 1px solid gray;
     border-radius: 6px;
@@ -37,10 +37,10 @@ select, option {
     background-color: #111;
     font-size: 18px;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
-    /*color: #aaa;*/ color:red;
+    color: #aaa;
     text-transform: uppercase;
 }
-
+*/
 form {
   width: 100%;
   font-size: 20px;
